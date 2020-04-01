@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Gui">
+      <UniqueIdentifier>{af352a9f-19b5-40b3-849f-c74fdfada0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{1f78b003-da11-44c6-99b7-76ac7371b20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RtlSupport">
+      <UniqueIdentifier>{198bdf9b-d2c5-4fc8-acc2-75afc171c76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RtlSupport">
+      <UniqueIdentifier>{5c17a660-cdc3-4581-9045-02e22129e80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Icon">
+      <UniqueIdentifier>{0bc4c0b2-74fe-43f6-85e6-5a7b1f31dd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{dd7e43c6-511c-4ba1-a468-997315389609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{f9efc7c0-52c6-4795-82bc-f4ba897efde5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\GuiMessages.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\MainDlg.h">
+      <Filter>Header Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="RtlSupport\RtlSupport.h">
+      <Filter>Header Files\RtlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="RtlSupport\RtlSupportTypes.h">
+      <Filter>Header Files\RtlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\QuantumConfig.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\GuiMessages.c">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainDlg.c">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="RtlSupport\memset.c">
+      <Filter>Source Files\RtlSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\QuantumConfig.c">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon\favicon.ico">
+      <Filter>Resource Files\Icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\QuantumConfigTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
